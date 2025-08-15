@@ -1,0 +1,21 @@
+{
+  "name": "yc-hwc/laravel-temu",
+  "description": "PHP Temu Client",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "huangweijie",
+      "email": "1539369355@qq.com"
+    }
+  ],
+  "require": {
+      "php": ">=8.0",
+      "laravel/framework": ">=8"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPTemu\\": "src"
+    }
+  }
+}
